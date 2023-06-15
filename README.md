@@ -1,4 +1,4 @@
-# conway-game-of-life
+# conway's Game of Life
 Simple implementation of Conway's Game of Life
 
 # How to compile?
