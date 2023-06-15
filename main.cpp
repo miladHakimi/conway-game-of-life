@@ -7,7 +7,7 @@ constexpr uint64_t kCols = 30;
 constexpr uint64_t kMaxSteps = 1000;
 
 void print_map(std::vector<std::vector<bool>> &world) {
-    std::ofstream ofs("test.txt", std::ofstream::trunc);
+    std::ofstream ofs("out.txt", std::ofstream::trunc);
     std::string world_str;
     for (size_t row = 1; row < kRows; ++row) {
         for (size_t col = 1; col < kCols; ++col) {
