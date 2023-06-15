@@ -1,10 +1,18 @@
 # Conway's Game of Life
 Simple implementation of Conway's Game of Life
 
-# How to compile?
+## Dependencies
+- SDL2
+
+## How to Build:
 ```bash
-g++ -std=c++17 main.cpp
+mkdir build
+cd build
+cmake ..
+make
 ```
 
-# Output
-The output of each iteration will be written in the `out.txt` file. You can go to the next iteration by hitting `Enter`.
+## How to Run:
+```bash
+./game
+```
